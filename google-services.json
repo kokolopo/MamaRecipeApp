@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "677525975726",
+    "project_id": "expo-notif-7d769",
+    "storage_bucket": "expo-notif-7d769.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677525975726:android:89f66872132be8e5bf733f",
+        "android_client_info": {
+          "package_name": "com.kokolopo.myexpo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677525975726-mpsqm251ttboqauaocrobo559rlgl3dc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrdIFU9aYuD2yhtfBMc5Bp9fjStZ5bWZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677525975726-mpsqm251ttboqauaocrobo559rlgl3dc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
