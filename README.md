@@ -120,7 +120,6 @@ REACT_APP_API_URL = [API_URL]
   <tr>
     <td><image src="https://www.linkpicture.com/q/Screenshot-2023-07-13-102059.png" alt="Landing Page" width=100%></td>
     <td><image src="https://www.linkpicture.com/q/Screenshot-2023-07-13-102148.png" alt="Landing Page After Login" width=100%/></td>
-   
   </tr>
    <tr>
     <td>Login & Register Page</td>
@@ -128,66 +127,19 @@ REACT_APP_API_URL = [API_URL]
   </tr>
  
   <tr>
-    <td><image src="https://lh3.googleusercontent.com/d/11Z2P-4cJKQkc-sEqblc3O2cPrffQ-Qwz" alt="Login Page" width=100%></td>
-    <td><image src="https://lh3.googleusercontent.com/d/1q-NdmAh2PnkD8Z4ax-h2Ayao6o_d1jAH" alt="Register Page" width=100%/></td>
+    <td><image src="https://www.linkpicture.com/q/Screenshot-2023-07-13-102219.png" alt="Login Page" width=100%></td>
+    <td><image src="https://www.linkpicture.com/q/Screenshot-2023-07-13-102318.png" alt="Register Page" width=100%/></td>
   </tr>
    <tr>
-    <td>Login Page</td>
-    <td>Register Page</td>
-  </tr>
-  
-  <tr>
-    <td><image src="https://lh3.googleusercontent.com/d/1i0yw0ksYsIkBqdF6IlYvRmWVsMzadi5x" alt="Forgot Password Page" width=100%></td>
-    <td><image src="https://lh3.googleusercontent.com/d/1Eqc_cXDDHwVb_1VIfZsDVKlRFNkk8AGY" alt="Code Verification Page" width=100%/></td>
-  </tr>
-  <tr>
-    <td>Forgot Password Page</td>
-    <td>Code Verification Page</td>
-  </tr>
-  
-  <tr>
-    <td><image src="https://lh3.googleusercontent.com/d/1NhZtMm6FZdTp9ikeBldPUvnHPziOU220" alt="Reset Password Page" width=100%></td>
-    <td><image src="https://lh3.googleusercontent.com/d/1M8KX4OGoGe556yGPXZslqwHcJsKE1tIJ" alt="List Recipe Page" width=100%/></td>
-  </tr>
-  <tr>
-    <td>Reset Password Page</td>
-    <td>List Recipe Page</td>
-  </tr>
-
-  <tr>
-    <td><image src="https://lh3.googleusercontent.com/d/1zhq5AQ0zta-z6fw9ZPnONXf5FJaiq9UW" alt="Detail Recipe Page" width=100%/></td>
-    <td><image src="https://lh3.googleusercontent.com/d/1LYHTBdLikPqr62w_EKFyAUH7zj7SWvHY" alt="Detail Video Page" width=100%></td>
-  </tr>
-  <tr>
-      <td>Detail Recipe Page</td>
-      <td>Detail Video Page</td>
-  </tr>
-  
-  <tr>
-    <td><image src="https://lh3.googleusercontent.com/d/1oAhnZc_-DHV0v8a-GpOe-jix-wYei71f" alt="Add Recipe Page" width=100%/></td>
-    <td><image src="https://lh3.googleusercontent.com/d/1HFnzIcS29DOdej0OpG4f_9FRHAx5mpRV" alt="Edit Recipe Page"' width=100%></td>
-  </tr>
-  <tr>
+    <td>Detail Recipe Page</td>
     <td>Add Recipe Page</td>
-    <td>Edit Recipe Page</td>
   </tr>
   
   <tr>
-    <td><image src="https://lh3.googleusercontent.com/d/1v6o5zbUONfDZbvuv4b9VyygrTw_qnI3B" alt="View Another Profile Page" width=100%/></td>
-    <td><image src="https://lh3.googleusercontent.com/d/1an5NnJynGmo90flX5SX35xbuVMStJ4EJ" alt="My Profile Page"' width=100%></td>
+    <td><image src="https://www.linkpicture.com/q/Screenshot-2023-07-13-102242.png" alt="Forgot Password Page" width=100%></td>
   </tr>
   <tr>
-    <td>View Another Profile Page</td>
-    <td>My Profile Page</td>
-  </tr>
-
-  <tr>
-    <td><image src="https://lh3.googleusercontent.com/d/1jQ8irQ2Zic-NRgcU6Hnf8n6lLqT_1LSZ" alt="Edit Profile Page" width=100%></td> 
-    <td><image src="https://lh3.googleusercontent.com/d/1-rRfdYe7jzhNiqVi6A5BMZRmP4A8VSNK" alt="Change Password Page" width=100%></td>  
-  </tr>
-  <tr>
-    <td>Edit Profile Page</td>
-    <td>Change Password Page</td>
+    <td>Profile Page</td>
   </tr>
 
 </table>
