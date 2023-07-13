@@ -118,11 +118,12 @@ REACT_APP_API_URL = [API_URL]
 <table>
 
   <tr>
-    <td><image src="https://www.linkpicture.com/q/splash_screen.png.png" alt="Landing Page" width=100%></td>
-    <td><image src="https://lh3.googleusercontent.com/d/1I3TT_chSyesVo2azb1Bd1_kl0plsYO08" alt="Landing Page After Login" width=100%/></td>
+    <td><image src="https://www.linkpicture.com/q/Screenshot-2023-07-13-102059.png" alt="Landing Page" width=100%></td>
+    <td><image src="https://www.linkpicture.com/q/Screenshot-2023-07-13-102148.png" alt="Landing Page After Login" width=100%/></td>
+   
   </tr>
    <tr>
-    <td>Landing Page</td>
+    <td>Login & Register Page</td>
     <td>Landing Page After Login</td>
   </tr>
  
