@@ -210,11 +210,11 @@ Contributions are what make the open source community such an amazing place to b
 ## Related Project
 :rocket: [`Backend Mama Recipe`](https://github.com/kokolopo/Food-Recipe-API)
 
-:rocket: [`Frontend Mama Recipe`](https://github.com/kokolopo/food-recipes)
+:rocket: [`Mobile Mama Recipe`](https://expo.dev/accounts/kokolopo/projects/my-expo/builds/7e794682-b6ec-45d3-9ac9-900a96198412)
 
 <!-- :rocket: [`Web Service`](https://mama-recipe.herokuapp.com/) -->
 
-:rocket: [`Demo Mama Recipe`](https://food-recipes-teal.vercel.app/)
+:rocket: [`Demo Mama Recipe`](https://expo.dev/accounts/kokolopo/projects/my-expo/builds/7e794682-b6ec-45d3-9ac9-900a96198412)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -222,7 +222,7 @@ Contributions are what make the open source community such an amazing place to b
 
 My Email : hadifah3@gmail.com
 
-Project Link: [https://github.com/kokolopo/food-recipes](https://github.com/kokolopo/food-recipes)
+Project Link: [https://github.com/kokolopo/MamaRecipeApp](https://github.com/kokolopo/MamaRecipeApp)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
