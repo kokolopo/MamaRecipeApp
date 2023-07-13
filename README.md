@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/kokolopo/food-recipes">
+  <a href="https://github.com/kokolopo/MamaRecipeApp">
     <img src="https://lh3.googleusercontent.com/d/1AuO1tJ469WqoXQufUeR-OkzqAW258aXT" alt="Logo" width="150px">
   </a>
 
@@ -17,9 +17,9 @@
     <br />
     <a href="https://bit.ly/food-recipes">View Demo</a>
     ·
-    <a href="https://github.com/kokolopo/food-recipes/issues">Report Bug</a>
+    <a href="https://github.com/kokolopo/MamaRecipeApp/issues">Report Bug</a>
     ·
-    <a href="https://github.com/kokolopo/food-recipes/issues">Request Feature</a>
+    <a href="https://github.com/kokolopo/MamaRecipeApp/issues">Request Feature</a>
     <br />
     <p align="center">
       <a href="https://github.com/kokolopo/food-recipes/"><img src="https://img.shields.io/github/issues/kokolopo/food-recipes?style=flat"></a>
