@@ -16,9 +16,9 @@ const useLogin = create((set) => ({
         withCredentials: true,
       });
 
-      console.log(res);
+      console.log(res.data.data);
       set({ loading: false });
-      set({ response: await res.data });
+      set({ response: await res.data.data });
       set({ token: await res.data.token });
     } catch (error) {
       set({ error: error });
@@ -27,14 +27,29 @@ const useLogin = create((set) => ({
     }
   },
 
+  editProfile: async (jwt, input) => {
+    set({ loading: true });
+    try {
+      const res = await axios.put("http://103.214.113.5:3000/users", input, {
+        headers: { Authorization: `Bearer ${jwt}` },
+      });
+      set({ loading: false });
+      const x = { ...response, input };
+      set({ response: x });
+    } catch (error) {
+      set({ error: error });
+      set({ loading: false });
+    }
+  },
+
   removeError: () => {
     set({ error: null });
   },
 
-  // removeCredential: () => {
-  //   // set({ response: null });
-  //   set({ token: null });
-  //   set({ error: null });
-  // },
+  removeCredential: () => {
+    // set({ response: null });
+    set({ token: null });
+    set({ error: null });
+  },
 }));
 export default useLogin;

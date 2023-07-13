@@ -8,10 +8,26 @@ const CategoryRecipe = () => {
             <Text className="text-lg font-semibold">Categories</Text>
 
             <View className="flex-row justify-between mt-5">
-                <CategoryCard category={"Soup"} boxColor={"#57CE96"} />
-                <CategoryCard category={"Chicken"} boxColor={"#FDE901"} />
-                <CategoryCard category={"Seafood"} boxColor={"#000001"} />
-                <CategoryCard category={"Dessert"} boxColor={"#FF55BB"} />
+                <CategoryCard
+                    category={"Soup"}
+                    boxColor={"#57CE96"}
+                    imageURL={require('../../../assets/populer_1.png')}
+                />
+                <CategoryCard
+                    category={"Soup"}
+                    boxColor={"#FDE901"}
+                    imageURL={require('../../../assets/populer_2.png')}
+                />
+                <CategoryCard
+                    category={"Soup"}
+                    boxColor={"#000001"}
+                    imageURL={require('../../../assets/populer_3.png')}
+                />
+                <CategoryCard
+                    category={"Soup"}
+                    boxColor={"#FF55BB"}
+                    imageURL={require('../../../assets/populer_1.png')}
+                />
             </View>
         </View>
     )

@@ -28,7 +28,7 @@ const FormAddRecipe = () => {
 
         if (!result.canceled) {
             setImage(result.assets[0].uri);
-            console.log(image);
+            // console.log(image);
         }
     };
 

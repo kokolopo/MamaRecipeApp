@@ -28,17 +28,16 @@ const Recipes = () => {
     const { token } = useLogin()
 
     React.useEffect(() => {
-        fetchRecipes(token, 10, currentPage, sort)
-    }, [response, currentPage, sort])
-
+        fetchRecipes(token, 6, currentPage, sort, searchQuery)
+    }, [response, currentPage, sort, searchQuery])
     // console.log(recipes);
 
     const handleSearch = (text) => {
         setSearchQuery(text);
-        const filteredData = recipes.filter((item) =>
-            item.title.toLowerCase().includes(text.toLowerCase())
-        );
-        setRecipes(filteredData);
+        // const filteredData = recipes.filter((item) =>
+        //     item.title.toLowerCase().includes(text.toLowerCase())
+        // );
+        // setRecipes(filteredData);
     };
 
     const goToPage = (page) => {

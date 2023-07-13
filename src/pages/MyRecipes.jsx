@@ -36,7 +36,7 @@ const MyRecipeCard = ({ recipe, token }) => {
                 className="flex flex-col ml-3 justify-evenly"
             >
                 <Text className="text-xl text-blue-400">{recipe.title}</Text>
-                <Text>{recipe.ingredients}</Text>
+                <Text className='w-28'>{recipe.ingredients}</Text>
             </View>
             <View className="flex-row items-center ml-3 space-x-2">
                 <TouchableOpacity
@@ -67,6 +67,8 @@ const MyRecipes = () => {
     const { myRecipes, getMyRecipes, loading, error } = useMyRecipes()
     const { token } = useLogin()
 
+    const navigation = useNavigation()
+
     React.useEffect(() => {
         getMyRecipes(token)
     }, [myRecipes])
@@ -75,7 +77,9 @@ const MyRecipes = () => {
     return (
         <SafeAreaView className="px-4 py-5">
             {/* <Text>{JSON.stringify(myRecipes)}</Text> */}
-
+            <TouchableOpacity onPress={() => { navigation.goBack() }}>
+                <MaterialIcons name="arrow-back" size={35} color="black" />
+            </TouchableOpacity>
             <FlatList
                 data={myRecipes}
                 keyExtractor={(item) => item.id.toString()}

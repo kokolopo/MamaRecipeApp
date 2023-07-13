@@ -9,6 +9,7 @@ import useLogin from '../../states/useLogin'
 const NewRecipes = () => {
     const { response, loading, error, fetchRecipes } = useRecipes()
     const { token } = useLogin()
+    console.log(loading);
 
 
     React.useEffect(() => {

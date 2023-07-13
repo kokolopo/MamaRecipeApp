@@ -9,33 +9,45 @@ const Profile = () => {
     const navigation = useNavigation();
 
     const { response, removeCredential, token } = useLogin()
-    // console.log(response.data.photo);
+    console.log(response);
 
     const handleLogout = () => {
-        navigation.navigate("Registration")
-        // removeCredential()
+        console.log(token);
+        removeCredential()
+        navigation.navigate("Login")
     }
-    // React.useEffect(() => {
-    //     if (!token) {
-    //         navigation.navigate("TabMenu")
-    //     }
-    // }, [])
+
     return (
         <View className="flex-1">
             <View className="bg-[#EEC302] h-[45%] justify-center items-center">
                 <View className="items-center">
                     <View className="w-24 h-24 bg-white rounded-full">
-                        <Image source={{ uri: `${response.data.photo}` }} alt='poto' className="w-full h-full" />
+                        <Image source={{ uri: `${response.photo}` }} alt='poto' className="w-full h-full" />
                     </View>
-                    <Text className="text-xl font-semibold text-white">{response.data.name}</Text>
+                    <Text className="text-xl font-semibold text-white">{response.name}</Text>
                 </View>
             </View>
 
             <View
                 className="absolute w-full px-3 bg-white h-[60%] bottom-0 rounded-2xl pt-4"
             >
+                {/* Edit Profile */}
                 <TouchableOpacity
                     className="flex-row items-center justify-between mt-3"
+                    onPress={() => navigation.navigate("EditProfile")}
+                >
+                    <View
+                        className="flex-row items-center"
+                    >
+                        <Feather name="user" size={35} color={"#EEC302"} />
+                        <Text className="ml-3 text-lg">Edit Profile</Text>
+                    </View>
+                    <Ionicons name="ios-chevron-forward" size={28} color="gray" />
+                </TouchableOpacity>
+
+                {/* My Recipes */}
+                <TouchableOpacity
+                    className="flex-row items-center justify-between mt-5"
                     onPress={() => navigation.navigate("MyRecipes")}
                 >
                     <View
@@ -49,7 +61,7 @@ const Profile = () => {
 
                 {/* Logout */}
                 <TouchableOpacity
-                    className="flex-row items-center justify-between mt-3"
+                    className="flex-row items-center justify-between mt-5"
                     onPress={handleLogout}
                 >
                     <View

@@ -19,6 +19,7 @@ import useLogin from "./src/states/useLogin";
 import DetailRecipe from "./src/pages/DetailRecipe";
 import MyRecipes from "./src/pages/MyRecipes";
 import EditRecipe from "./src/pages/EditRecipe";
+import Editprofile from "./src/pages/Editprofile";
 
 Notifications.setNotificationHandler({
   handleNotification: async () => ({
@@ -103,6 +104,7 @@ export default function App() {
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="Detail" component={DetailRecipe} />
         <Stack.Screen name="MyRecipes" component={MyRecipes} />
+        <Stack.Screen name="EditProfile" component={Editprofile} />
         <Stack.Screen name="EditRecipe" component={EditRecipe} />
         <Stack.Screen
           name="TabMenu"

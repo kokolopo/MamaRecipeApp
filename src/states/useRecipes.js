@@ -8,11 +8,11 @@ const useRecipes = create((set) => ({
   error: null,
   responsePost: null,
 
-  fetchRecipes: async (jwt, limit, page, sort = "desc") => {
+  fetchRecipes: async (jwt, limit, page, sort = "desc", title = "") => {
     set({ loading: true });
     try {
       const data = await axios.get(
-        `http://103.214.113.5:3000/recipes?limit=${limit}&page=${page}&sort=${sort}`,
+        `http://103.214.113.5:3000/recipes?limit=${limit}&page=${page}&sort=${sort}&title=${title}`,
         {
           headers: {
             Authorization: `Bearer ${jwt}`,
@@ -28,6 +28,12 @@ const useRecipes = create((set) => ({
       set({ error: error });
       // console.log(error);
     }
+  },
+
+  searchRecipe: async (jwt) => {
+    try {
+      const data = await axios.get("");
+    } catch (error) {}
   },
 
   postRecipe: async (jwt, input) => {
