@@ -64,11 +64,11 @@
 
 ### Built With
 This app was built with some technologies below:
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS?retiredLocale=id)
-* [Javascript](https://www.javascript.com/)
-* [React](https://vuejs.org/v2)
+* [React Native](https://reactnative.dev/)
+* [Expo](https://expo.dev/)
+* [Nativewind](https://www.nativewind.dev/)
 * [Axios](https://axios-http.com/)
-* [Redux](https://redux.js.org/)
+* [zustand](https://docs.pmnd.rs/zustand)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -88,19 +88,18 @@ Before going to the installation stage there are some software that must be inst
 If you want to run this project locally, We recommend you to configure the [back-end](https://github.com/kokolopo/Food-Recipe-API) first before configuring this repo front-end.
 - Clone the repo
 ```
-git clone https://github.com/kokolopo/food-recipes.git
+git clone https://github.com/kokolopo/MamaRecipeApp.git
 ```
 - Go To Folder Repo
 ```
-cd food-recipes
+cd MamaRecipeApp
 ```
 - Install Module
 ```
 npm install
 ```
 - <a href="#setup-env">Setup .env</a>
-- Type ` npm run dev` To Start Website
-- Type ` npm run start` To Start Production
+- Type ` npm run dev` To Start 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
