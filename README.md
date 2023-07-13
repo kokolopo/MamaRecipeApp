@@ -15,17 +15,17 @@
     <a href="#table-of-contents"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://bit.ly/food-recipes">View Demo</a>
+    <a href="https://expo.dev/accounts/kokolopo/projects/my-expo/builds/7e794682-b6ec-45d3-9ac9-900a96198412">View Demo</a>
     ·
     <a href="https://github.com/kokolopo/MamaRecipeApp/issues">Report Bug</a>
     ·
     <a href="https://github.com/kokolopo/MamaRecipeApp/issues">Request Feature</a>
     <br />
     <p align="center">
-      <a href="https://github.com/kokolopo/food-recipes/"><img src="https://img.shields.io/github/issues/kokolopo/food-recipes?style=flat"></a>
-      <a href="https://github.com/kokolopo/food-recipes/"><img src="https://img.shields.io/github/forks/kokolopo/food-recipes?style=flat"></a>
-      <a href="https://github.com/kokolopo/food-recipes/"><img src="https://img.shields.io/github/stars/kokolopo/food-recipes?style=flat"></a>
-      <a href="https://github.com/kokolopo/food-recipes/"><img src="https://img.shields.io/github/license/kokolopo/food-recipes?style=flat"></a>
+      <a href="https://github.com/kokolopo/MamaRecipeApp/"><img src="https://img.shields.io/issues/stars/kokolopo/MamaRecipeApp?style=flat"></a>
+      <a href="https://github.com/kokolopo/MamaRecipeApp/"><img src="https://img.shields.io/github/forks/kokolopo/MamaRecipeApp?style=flat"></a>
+      <a href="https://github.com/kokolopo/MamaRecipeApp/"><img src="https://img.shields.io/github/stars/kokolopo/MamaRecipeApp?style=flat"></a>
+      <a href="https://github.com/kokolopo/MamaRecipeApp/"><img src="https://img.shields.io/github/license/kokolopo/MamaRecipeApp?style=flat"></a>
     </p>
   </p>
 </div>
