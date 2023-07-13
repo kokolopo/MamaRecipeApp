@@ -22,7 +22,7 @@
     <a href="https://github.com/kokolopo/MamaRecipeApp/issues">Request Feature</a>
     <br />
     <p align="center">
-      <a href="https://github.com/kokolopo/MamaRecipeApp/"><img src="https://img.shields.io/issues/stars/kokolopo/MamaRecipeApp?style=flat"></a>
+      <a href="https://github.com/kokolopo/MamaRecipeApp/"><img src="https://img.shields.io/github/issues/kokolopo/MamaRecipeApp?style=flat"></a>
       <a href="https://github.com/kokolopo/MamaRecipeApp/"><img src="https://img.shields.io/github/forks/kokolopo/MamaRecipeApp?style=flat"></a>
       <a href="https://github.com/kokolopo/MamaRecipeApp/"><img src="https://img.shields.io/github/stars/kokolopo/MamaRecipeApp?style=flat"></a>
       <a href="https://github.com/kokolopo/MamaRecipeApp/"><img src="https://img.shields.io/github/license/kokolopo/MamaRecipeApp?style=flat"></a>
